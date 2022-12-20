@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.navhead{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+.allan {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.logo {
+    margin-left: 140px;
+    margin-top: 35px;
+}
+.personal {
+    font-family: Bahnschrift Light;
+    margin-left: 22px;
+    letter-spacing: 1px;
+}
+.list {
+    float: right;
+    margin-right: 110px;
+    position: relative;
+    bottom: 50px;
+}
+.list li {
+    display: inline-block;
+    font-family: Bahnschrift Light;
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.list li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 8px;
+    transition: 0.5s;
+}
+.list li a:hover {
+    color: black;
+    background-color: aquamarine;
+}
+.login {
+    margin-left: 50px;
+    font-weight: bold;
+}
+.usericon {
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    color: aquamarine;
+}
+.first {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+}
+.text {
+    position: absolute;
+    padding-top: 80px;
+}
+.text h3 {
+    /* font-weight: bold; */
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.text h1 {
+    font-weight: bold;
+    color: black;
+    letter-spacing: 13px;
+    position: absolute;
+    font-size: 120px;
+    margin-left: -135px;
+}
+.text h2 {
+    padding-top: 150px;
+    color: black;
+    margin-left: -20px;
+}
+.book {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 370px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: -60px;
+}
+.book:hover {
+    background-color: aquamarine;
+    color: black;
+}
